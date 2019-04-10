@@ -1,0 +1,167 @@
+#header-photo {
+	width: 40%;
+	
+	
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: scroll;
+}
+header{
+	color: white;
+	background-color: #162802;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 3px solid black;
+	text-align:center;
+	
+}
+.topnav {
+	 text-align:center;
+    width: 100%;
+}
+
+ul {
+text-align:center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  width:100%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* Homepage.jsp layout */
+
+
+#park-list-div {
+ 		width: 60vw;
+        min-width: 360px;
+        text-align: left;
+        margin: auto;
+        padding: 20px;
+        
+        overflow: auto;
+        display:inline-block;
+}
+
+#park-image{
+	float:left;
+	padding: 10px;
+}
+#info-desc{
+	padding: 10px;
+	overflow:hidden;
+	horizontal-align: middle;
+}
+
+
+/* Details */
+#detail-title {
+	margin-top: 0px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 200%;
+}
+
+.detail-pic-and-quote {
+	display: block;
+	text-align: right;
+	width: 499px;
+	/* position: relative; */
+	left: 240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.park-detail-description {
+	font-size: 150%;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+#inspirational-quote {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#inspirational-quote-source {
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+}
+
+.weatherImgSrc {
+  width: 35%;
+ 	height: auto;
+}
+
+
+
+
+#Temps-Recommendations {
+	border: 3px solid black;
+	width: 50%;
+	position: relative;
+	padding: 10px;
+	
+	
+}
+
+
+.five-day-forecast {
+width: 30%;
+padding: 20px;
+text-align: center;
+
+}
+#lowtemp{
+	font-size: 20px;
+	color: blue;
+}
+#hightemp{
+	font-size: 20px;
+	color: red;
+}
+#recommendations{
+	font-size: 20px;
+	font-style: italic;
+	opacity: .5;
+	overflow: hidden;
+}
+
+footer {
+	color: white;
+	background-color: #162802;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 3px solid black;
+	text-align:right;
+}
+ 
+
+
+
+
